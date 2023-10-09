@@ -1,0 +1,26 @@
+.wrap {
+  margin: 100px auto;
+  background-color: #dab0b0;
+  max-width: 700px;
+}
+
+p {
+  background-color: #fff;
+  text-align: center;
+  font-size: larger;
+  font-weight: bold;
+}
+/* hover link effect */
+a {
+  background: linear-gradient(to bottom, #ff9800 0%, #ff9800 100%);
+  background-position: 0 100%;
+  background-repeat: repeat-x;
+  background-size: 4px 4px;
+  color: black;
+  text-decoration: none;
+  transition: background-size 0.2s;
+}
+
+a:hover {
+  background-size: 4px 80%;
+}
